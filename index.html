@@ -112,7 +112,60 @@
 	</header>
 	<!-- header -->
 
-	<div class="main-slider">
+  <header class="mobile-header visible-xs">
+    <div class="mobile-top-panel">
+      <div class="header__item">
+        <div class="table-block">
+          <div class="block-vertical">
+            <a href="#" class="menu-btn">
+              <img src="images/menu-btn.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header__item">
+        <div class="table-block">
+          <div class="block-vertical">
+            <a href="#" class="search-btn">
+              <img src="images/search-btn.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header__item">
+        <div class="table-block">
+          <div class="block-vertical">
+           <div class="logo__icon">
+              <a href="#">SotParts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__item">
+        <div class="table-block">
+          <div class="block-vertical">
+            <a href="#" class="user-btn">
+              <img src="images/user-btn.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header__item">
+        <div class="table-block">
+          <div class="block-vertical">
+            <a href="#" class="basket-btn">
+              <img src="images/basket-btn.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="yellow-block"></div>
+  </header>
+  <!-- mobile header -->
+
+
+	<div class="main-slider hidden-xs">
     <ul class="bxslider">
       <li>
         <div class="slider__item" style="background-image: url(images/slider.jpg)">
@@ -196,6 +249,37 @@
   </div>
 	<!-- main slider -->
 
+  <div class="mobile-main-slider visible-xs">
+    <div class="mobile-slider__item">
+      <ul class="bxslider">
+        <li>
+          <img src="images/slider.jpg" alt="">
+        </li>
+        <li>
+          <img src="images/slider.jpg" alt="">
+        </li>
+      </ul>
+    </div>
+    <div class="slider__info">
+      <div class="table-block">
+        <div class="block-vertical">
+          <div class="slider__small-title">Запчасти Apple</div>
+          <div class="slider__large-title">Запчасти для <br>IPhone 6s</div>
+          <div class="slider__text">
+            iPhone 6s оснащён новейшим процессором обработки сигнала изображения, разработанным Apple.
+          </div>
+          <div class="slider__price">
+            <span class="slider__today-price">24 590 <span class="rub">c</span></span>
+            <span class="slider__prev-price">4 190 <span class="rub">c</span></span>
+          </div>
+          <div class="slider-add">
+            <a href="#">В корзину</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 	<div class="product-list">
 		<div class="container">
 			<div class="product-list-wrapp clearfix">
@@ -260,7 +344,7 @@
 								<div class="product-list__item">
 									<a href="#">
 										<div class="product-content">
-		                  <div class="product__img">
+		                  <div class="product__img product__img_tel">
 		                    <img src="images/htc.png" alt="">
 		                  </div>
 		                  <div class="product__desc">
@@ -282,7 +366,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-5 col-md-4 col-sm-4">
+						<div class="col-lg-5 col-md-4 col-sm-4 hidden-xs">
 							<div class="row">
 								<div class="product-list__item">
 									<a href="#">
@@ -335,7 +419,7 @@
 		<div class="container">
 			<div class="hits__header clearfix">
 				<div class="hits__title">Хиты продаж</div>
-				<ul class="nav-tabs" role="tablist">
+				<ul class="nav-tabs hidden-xs" role="tablist">
 			    <li role="presentation" class="active">
 			    	<a href="#all" aria-controls="home" role="tab" data-toggle="tab">Все</a>
 			    </li>
@@ -349,6 +433,10 @@
 			    	<a href="#laptop" aria-controls="settings" role="tab" data-toggle="tab">Для ноутбуков</a>
 			    </li>
 			  </ul>
+        <span class="all-tovar visible-xs">
+          Все
+          <img src="images/drop-arrow.png" alt="">
+        </span>
 			</div>
 			<div class="tab-content">
 		    <div role="tabpanel" class="tab-pane fade in active" id="all">
@@ -843,7 +931,7 @@
 					</div>
 				</div>
 				<div class="bot-foot clearfix">
-					<div class="col-xs-3 hidden-xs">
+					<div class="col-sm-3 hidden-xs">
 						<div class="row">
 							<div class="copyright">
 								<div class="table-block">
@@ -864,7 +952,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-6">
+					<div class="col-sm-6">
 						<div class="row">
 							<div class="center-foot">
 								<div class="table-block">
@@ -887,7 +975,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-3">
+					<div class="col-sm-3">
 						<div class="row">
 							<div class="foot-top-icon">
 								<div class="table-block">
@@ -917,7 +1005,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="foot-bot-icon">
+							<div class="foot-bot-icon hidden-xs">
 								<div class="table-block">
 									<div class="block-vertical">
 										<ul>
@@ -942,10 +1030,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-3 visible-xs">
+					<div class="col-sm-3 visible-xs">
 						<div class="row">
 							<div class="copyright">
-								<p>© 2015 Ортоцентр. All <br> rights resrved.</p>
+								<p>© 2015 Ортоцентр. All rights resrved.</p>
+                <div class="copyright__item">
+                  <p>
+                    <span>Разработано в студии</span>
+                    <span>  <a href="#"><img src="images/paradogs.png" alt=""></a>  </span>                     
+                  </p>
+                </div>
 							</div>
 						</div>
 					</div>
