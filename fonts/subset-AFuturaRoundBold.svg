@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg>
+<metadata>
+Created by FontForge 20120731 at Sat Mar 12 14:07:27 2016
+ By ,,,
+a_FuturaRound *Arsenal Company (c) 1997* FAX: (095)924-3775; e-Mail: arsenal@itco.msk.su; Phone: (095)924-5811 (Design and Featuring W.Chufarofsky)
+</metadata>
+<defs>
+<font id="AFuturaRoundBold" horiz-adv-x="696" >
+  <font-face 
+    font-family="a_FuturaRound"
+    font-weight="700"
+    font-stretch="normal"
+    units-per-em="2048"
+    panose-1="2 15 8 2 2 2 4 2 2 4"
+    ascent="1638"
+    descent="-410"
+    bbox="68 0 612 1365"
+    underline-thickness="165"
+    underline-position="-287"
+  />
+<missing-glyph horiz-adv-x="748" 
+d="M68 0v1365h544v-1365h-544zM136 68h408v1229h-408v-1229z" />
+    <glyph glyph-name=".notdef" horiz-adv-x="748" 
+d="M68 0v1365h544v-1365h-544zM136 68h408v1229h-408v-1229z" />
+    <glyph glyph-name="glyph1" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="uni000D" 
+ />
+    <glyph glyph-name="space" 
+ />
+  </font>
+</defs></svg>
