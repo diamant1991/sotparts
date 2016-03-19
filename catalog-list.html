@@ -117,9 +117,7 @@
       <div class="header__item">
         <div class="table-block">
           <div class="block-vertical">
-            <a href="#" class="menu-btn">
-              <img src="images/menu-btn.png" alt="">
-            </a>
+            <a href="#" class="menu-btn"></a>
           </div>
         </div>
       </div>
@@ -155,6 +153,7 @@
           <div class="block-vertical">
             <a href="#" class="basket-btn">
               <img src="images/basket-btn.png" alt="">
+              <span class="basket-btn__status">2</span>
             </a>
           </div>
         </div>
@@ -164,9 +163,209 @@
   </header>
   <!-- mobile header -->
 
+  <div class="mobile-menu-list visible-xs">
+		<ul class="menu-list__item">
+			<li>
+				<a href="#" class="toggle-drop">Акции</a>
+				<ul class="mobile-drop-menu">
+					<li><a href="#">Пункт 1</a></li>
+					<li><a href="#">Пункт 2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" class="toggle-drop">Сервис</a>
+				<ul class="mobile-drop-menu">
+					<li><a href="#">Пункт 1</a></li>
+					<li><a href="#">Пункт 2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" class="toggle-drop">Новости</a>
+				<ul class="mobile-drop-menu">
+					<li><a href="#">Пункт 1</a></li>
+					<li><a href="#">Пункт 2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" class="toggle-drop">О компании</a>
+				<ul class="mobile-drop-menu">
+					<li><a href="#">Пункт 1</a></li>
+					<li><a href="#">Пункт 2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" class="toggle-drop">Контакты</a>
+				<ul class="mobile-drop-menu">
+					<li><a href="#">Пункт 1</a></li>
+					<li><a href="#">Пункт 2</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="mobile-cat-list">
+			<div class="mobile-cat__title">Каталог</div>
+			<ul class="menu-list__item">
+				<li>
+					<a href="#" class="toggle-drop">Запчасти Apple</a>
+					<ul class="mobile-drop-menu">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="toggle-drop">Запчасти для Телефонов</a>
+					<ul class="mobile-drop-menu">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="toggle-drop">Запчасти для Планшетов</a>
+					<ul class="mobile-drop-menu">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="toggle-drop">Запчасти для Ноутбуков</a>
+					<ul class="mobile-drop-menu">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="toggle-drop">Аксессуары</a>
+					<ul class="mobile-drop-menu">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="toggle-drop">Аккумуляторы</a>
+					<ul class="mobile-drop-menu">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#" class="toggle-drop">Для ремонта</a>
+					<ul class="mobile-drop-menu">
+						<li><a href="#">Пункт 1</a></li>
+						<li><a href="#">Пункт 2</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
 	<div class="content">
+		<div class="filter visible-xs clearfix">
+			<button class="toggle-sidebar"></button>
+			<div class="sorting">
+				<a href="#">
+					<span>По популярности</span>
+					<span>
+						<img src="images/sorting.png" alt="">
+					</span>
+				</a>
+				<a href="#">
+					<span>По цене</span>
+					<span>
+						<img src="images/sorting.png" alt="">
+					</span>
+				</a>
+			</div>
+			<div class="view clearfix">
+				<a href="#" class="view__list"></a>
+				<a href="#" class="view__column active"></a>
+			</div>
+		</div>
+		<aside class="sidebar visible-xs">
+			<div class="side-filter-block">
+				<button class="filter-btn active">Цена</button>
+				<div class="filter-content">
+					<ul class="sidebar__list">
+						<li><a href="#">Touch screen (сенсор)</a></li>
+						<li><a href="#">Антенны</a></li>
+						<li><a href="#">Вибромотор</a></li>
+						<li><a href="#">Динамики, звонки</a></li>
+						<li><a href="#">Дисплеи</a></li>
+						<li><a href="#">Камера</a></li>
+						<li><a href="#">Клавиатура</a></li>
+						<li><a href="#">Кнопки джойстики</a></li>
+						<li><a href="#">Коннектор SIM MMC</a></li>
+						<li><a href="#">АКБ</a></li>
+						<li><a href="#">Корпуса, корп.части</a></li>
+						<li><a href="#">Микросхемы</a></li>
+						<li><a href="#">Микрофоны</a></li>
+						<li><a href="#">Подложка клавиатуры</a></li>
+						<li><a href="#">Разное</a></li>
+						<li><a href="#">Системные разъемы</a></li>
+						<li><a href="#">Стекло</a></li>
+						<li><a href="#">Шлейф</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="side-filter-block">
+				<button class="filter-btn active">Производители</button>
+				<div class="filter-content">
+					<ul class="check-list">
+						<li>
+							<input type="checkbox" class="checkbox" id="producer1">
+							<label for="producer1">Apple</label>
+						</li>
+						<li>
+							<input type="checkbox" class="checkbox" id="producer2">
+							<label for="producer2">Nokia</label>
+						</li>
+						<li>
+							<input type="checkbox" class="checkbox" id="producer3">
+							<label for="producer3">Samsung</label>
+						</li>
+						<li>
+							<input type="checkbox" class="checkbox" id="producer4">
+							<label for="producer4">HTC</label>
+						</li>
+						<li>
+							<input type="checkbox" class="checkbox" id="producer5">
+							<label for="producer5">Sony</label>
+						</li>
+						<li>
+							<input type="checkbox" class="checkbox" id="producer6">
+							<label for="producer6">Huawei</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="side-filter-block">
+				<button class="filter-btn active">Акции</button>
+				<div class="filter-content">
+					<ul class="check-list">
+						<li>
+							<input type="checkbox" class="checkbox" id="share1">
+							<label for="share1">Со скидкой</label>
+						</li>
+						<li>
+							<input type="checkbox" class="checkbox" id="share2">
+							<label for="share2">Новинки</label>
+						</li>
+						<li>
+							<input type="checkbox" class="checkbox" id="share3">
+							<label for="share3">Лучшее</label>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="side-filter-block">
+				<button class="filter-btn active">Цена, руб</button>
+				<div class="filter-content">
+					<div class="range-slider">
+						<img src="images/filter.png" alt="">
+					</div>
+				</div>
+			</div>
+		</aside>
 		<div class="container">
-			<div class="breadcrumb clearfix">
+			<div class="breadcrumb hidden-xs clearfix">
 				<ul class="breadcrumb__menu clearfix">
 					<li>
 						<a href="#">Каталог</a>
@@ -194,7 +393,7 @@
 				<img src="images/banner.jpg" alt="">
 			</div>
 			<div class="catalog">
-				<div class="filter clearfix">
+				<div class="filter hidden-xs clearfix">
 					<div class="sorting">
 						<a href="#">
 							<span>По популярности</span>
@@ -215,7 +414,7 @@
 					</div>
 				</div>
 				<div class="catalog-wrapp">
-					<aside class="sidebar">
+					<aside class="sidebar hidden-xs">
 						<div class="side-filter-block">
 							<button class="filter-btn active">Цена</button>
 							<div class="filter-content">
@@ -302,12 +501,12 @@
 					</aside>
 					<article class="center-content clearfix">
 						<div class="content__list">
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
 									<div class="best__label">
 										<img src="images/sale-label.png" alt="">
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -318,7 +517,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -330,7 +529,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -342,7 +541,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -352,7 +551,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -367,12 +566,12 @@
 		              </div>
 	              </div>
 							</div>
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
 									<div class="best__label">
 										<img src="images/new-label.png" alt="">
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -383,7 +582,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -395,7 +594,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -407,7 +606,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -417,7 +616,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -432,12 +631,12 @@
 		              </div>
 	              </div>
 							</div>
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
 									<div class="best__label">
 										<img src="images/best.png" alt="">
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -448,7 +647,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -460,7 +659,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -472,7 +671,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -482,7 +681,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -497,9 +696,9 @@
 		              </div>
 	              </div>
 							</div>
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -510,7 +709,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -522,7 +721,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -534,7 +733,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -544,7 +743,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -559,9 +758,9 @@
 		              </div>
 	              </div>
 							</div>
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -572,7 +771,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -584,7 +783,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -596,7 +795,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -606,7 +805,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -621,9 +820,9 @@
 		              </div>
 	              </div>
 							</div>
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -634,7 +833,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -646,7 +845,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -658,7 +857,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -668,7 +867,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -683,9 +882,9 @@
 		              </div>
 	              </div>
 							</div>
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -696,7 +895,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -708,7 +907,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -720,7 +919,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -730,7 +929,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -745,9 +944,9 @@
 		              </div>
 	              </div>
 							</div>
-							<div class="catalog__item">
+							<div class="catalog__item catalog__item-list">
 								<div class="item list_item clearfix">
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__img">
 												<div class="table-block">
@@ -758,7 +957,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-xs-4">
 										<div class="row">
 											<div class="catalog__list-title">Наименование:</div>
 											<div class="text">
@@ -770,7 +969,7 @@
 			                </div>
 										</div>
 									</div>
-									<div class="col-md-2">
+									<div class="col-xs-2">
 										<div class="row">
 											<div class="catalog__list-title">Цена:</div>
 											<div class="price">
@@ -782,7 +981,7 @@
 			                </div>
 										</div>
 									</div>
-	                <div class="col-md-3">
+	                <div class="col-xs-3">
 	                	<div class="row">
 	                		<div class="catalog__list-title">Кол-во:</div>
 	                		<div class="count">
@@ -792,7 +991,7 @@
 				              </div>
 	                	</div>
 	                </div>
-		              <div class="col-md-1">
+		              <div class="col-xs-1">
 		              	<div class="row">
 		              		<div class="list-add-icon">
 		              			<div class="table-block">
@@ -810,39 +1009,60 @@
 						</div>
 						<!-- content list -->
 						<div class="pagination clearfix">
-							<div class="col-sm-3">
+							<div class="col-md-3 col-sm-2 col-xs-2 hidden-xs">
 								<a href="#" class="pagination__prev">
 									<span>
 										<img src="images/pagination-prev.png" alt="">
 									</span>
-									<span class="pagination__text-prev">Предыдущая</span>
+									<span class="pagination__text-prev hidden-sm">Предыдущая</span>
 								</a>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-md-3 col-sm-2 col-xs-2 visible-xs">
+								<div class="row">
+									<a href="#" class="pagination__prev">
+										<span>
+											<img src="images/pagination-prev.png" alt="">
+										</span>
+										<span class="pagination__text-prev hidden-sm">Предыдущая</span>
+									</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-8 col-xs-8">
 								<div class="row">
 									<ul class="pagination__list">
 										<li class="active"><a href="#"><span>1</span></a></li>
 										<li><a href="#"><span>2</span></a></li>
 										<li><a href="#"><span>3</span></a></li>
-										<li><a href="#"><span>4</span></a></li>
-										<li><a href="#"><span>5</span></a></li>
-										<li><a href="#"><span>6</span></a></li>
-										<li><a href="#"><span>7</span></a></li>
+										<li class="hidden-xs"><a href="#"><span>4</span></a></li>
+										<li class="hidden-xs"><a href="#"><span>5</span></a></li>
+										<li class="hidden-xs"><a href="#"><span>6</span></a></li>
+										<li class="hidden-xs"><a href="#"><span>7</span></a></li>
 										<li>...</li>
 										<li><a href="#"><span>35</span></a></li>
 									</ul>
 								</div>
 							</div>
-							<div class="col-sm-3">
+							<div class="col-md-3 col-sm-2 col-xs-2">
 								<div class="row">
 									<a href="#" class="pagination__next">										
-										<span class="pagination__next-text">Следующая</span>
+										<span class="pagination__next-text hidden-sm">Следующая</span>
 										<span>
 											<img src="images/pagination-next.png" alt="">
 										</span>
 									</a>
 								</div>
 							</div>
+						</div>
+						<div class="result-show visible-xs">
+							Показано 50 из 2450 товаров
+						</div>
+						<div class="mobile__up visible-xs">
+							<a href="#" class="mobile__up-btn">
+								<span class="mobile__up-text">Наверх</span>
+								<span>
+									<img src="images/up.png" alt="">
+								</span>
+							</a>
 						</div>
 					</article>
 				</div>
