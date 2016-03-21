@@ -158,6 +158,10 @@ img {
   font-size: 20px;
   color: #333;
   padding: 6.5px 20px;
+  font-family: 'FuturaReg';
+}
+#list {
+  display: none;
 }
 .main-menu .search input[type=submit] {
   outline: none;

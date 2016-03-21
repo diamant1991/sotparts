@@ -275,8 +275,8 @@
 				</a>
 			</div>
 			<div class="view clearfix">
-				<a href="#" class="view__list"></a>
-				<a href="#" class="view__column active"></a>
+				<a href="#" class="view__list" onclick="opcl(mydivs,'#list'); return false;"></a>
+				<a href="#" class="view__column active" onclick="opcl(mydivs,'#column'); return false;"></a>
 			</div>
 		</div>
 		<aside class="sidebar visible-xs">
@@ -409,8 +409,8 @@
 						</a>
 					</div>
 					<div class="view clearfix">
-						<a href="#" class="view__list"></a>
-						<a href="#" class="view__column active"></a>
+						<a href="#" class="view__list" onclick="opcl(mydivs,'#list'); return false;"></a>
+						<a href="#" class="view__column active" onclick="opcl(mydivs,'#column'); return false;"></a>
 					</div>
 				</div>
 				<div class="catalog-wrapp">
@@ -500,7 +500,7 @@
 						</div>
 					</aside>
 					<article class="center-content clearfix">
-						<div class="content__list clearfix">
+						<div class="content__list clearfix" id="column">
 							<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
 								<div class="row">
 									<div class="catalog__item">
@@ -1094,6 +1094,514 @@
 			              </div>
 									</div>
 								</div>
+							</div>
+						</div>
+
+						<div class="content__list" id="list">
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="best__label">
+										<img src="images/sale-label.png" alt="">
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
+							</div>
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="best__label">
+										<img src="images/new-label.png" alt="">
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
+							</div>
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="best__label">
+										<img src="images/best.png" alt="">
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
+							</div>
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
+							</div>
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
+							</div>
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
+							</div>
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
+							</div>
+							<div class="catalog__item catalog__item-list">
+								<div class="item list_item clearfix">
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__img">
+												<div class="table-block">
+			                  	<div class="block-vertical">
+			                  		<img src="images/cat-list.jpg" alt="">
+			                  	</div>
+			                  </div>
+											</div>
+										</div>
+									</div>
+									<div class="col-xs-4">
+										<div class="row">
+											<div class="catalog__list-title">Наименование:</div>
+											<div class="text">
+			                  <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Наличие:</span> есть на складе</p>
+			                  <p><span>Гарантия:</span> 2 недели</p>
+			                </div>
+										</div>
+									</div>
+									<div class="col-xs-2">
+										<div class="row">
+											<div class="catalog__list-title">Цена:</div>
+											<div class="price">
+			                  <p>24 590 <span class="rub">c</span></p>
+			                  <div class="prev__price">4 190 <span class="rub">c</span></div>
+			                </div>
+			                <div class="info-item">
+			                  <p><span>Артикул:</span> 34098734</p>
+			                </div>
+										</div>
+									</div>
+	                <div class="col-xs-3">
+	                	<div class="row">
+	                		<div class="catalog__list-title">Кол-во:</div>
+	                		<div class="count">
+	                			<div class="minus">-</div>
+			                  <input type="text" class="number" value="0" readonly="">
+			                  <div class="plus">+</div>
+				              </div>
+	                	</div>
+	                </div>
+		              <div class="col-xs-1">
+		              	<div class="row">
+		              		<div class="list-add-icon">
+		              			<div class="table-block">
+		              				<div class="block-vertical">
+		              					<a href="#" class="add__icon">
+		              						<img src="images/list-add-icon.png" alt="">
+		              					</a>
+		              				</div>
+		              			</div>
+		              		</div>
+		              	</div>
+		              </div>
+	              </div>
 							</div>
 						</div>
 						<!-- content list -->

@@ -71,3 +71,21 @@ $(function() {
 		}
 	});
 });
+
+
+var mydivs=new Array('#list','#column');
+
+function opcl(arr, e){
+  if ($(e).css('display') == 'none'){
+      for(var i in arr){   
+         $(arr[i]).hide();     
+      }
+      $(e).show();       
+  }
+}
+
+$('.view a').click(function(e) {
+	e.preventDefault();
+	$('.view a').removeClass('active');
+	$(this).addClass('active');
+});
