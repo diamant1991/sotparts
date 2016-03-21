@@ -39,6 +39,9 @@
 		float: none;
 		text-align: center;
 	}
+	.main-menu .catalog{
+		padding-left: 20px;
+	}
 	.basket-table{
 		overflow-x: auto;
 	}
