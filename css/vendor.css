@@ -950,7 +950,7 @@ ul.bxslider {
 }
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
-  width: 35px;
+  width: 36px;
   height: 36px;
   top: 50%;
   margin-top: -18px;
@@ -962,7 +962,7 @@ ul.bxslider {
 
 .bx-wrapper .bx-controls-direction a:hover{
   background: url(../images/next_prev_hover.png) no-repeat;
-  background-position: -35px 0;
+  background-position: -37px 0;
 }
 .bx-wrapper .bx-controls-direction a.disabled {
   display: none;
