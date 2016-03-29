@@ -22,6 +22,9 @@
 	.bx-wrapper .bx-next{
 		right: 20px;
 	}
+	.menu-child{
+		width: 710px;
+	}
 	.bx-wrapper .bx-prev{
 		left: 10px;
 	}
@@ -31,6 +34,9 @@
 	.logo{
 		float: none;
 		text-align: center;
+	}
+	.menu-child{
+		width: 490px;
 	}
 	.hidden-sm{
 		display: none !important;

@@ -82,6 +82,78 @@
           <div class="row">
             <div class="catalog">
               <a href="#">Каталог</a>
+              <div class="b-menu">
+                <div class="container">
+                  <ul class="b-menu__list">
+                    <li class="b-menu__item">
+                      <a href="#" class="b-menu__link">Запчасти Apple</a>
+                      <ul class="menu-child clearfix">
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Touch screen (сенсор)</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Антенны</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Вибромотор</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Динамики, звонки</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Дисплеи</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Камера</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Клавиатура</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="b-menu__item">
+                      <a href="#" class="b-menu__link">Запчасти для Телефонов</a>
+                      <ul class="menu-child clearfix">
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Кнопки джойстики</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Коннектор SIM MMC АКБ</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Корпуса, корпусные части</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Микросхемы</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Микрофоны</a>
+                        </li>
+                        <li class="menu-child__item">
+                          <a href="#" class="menu-child__link">Подложка клавиатуры, дисплея</a>
+                        </li>
+                        <li class="menu-child__item"><a href="#" class="menu-child__link">Разное</a>
+                      </li>
+                      </ul>
+                    </li>
+                    <li class="b-menu__item">
+                      <a href="#" class="b-menu__link">Запчасти для Планшетов</a>
+                    </li>
+                    <li class="b-menu__item">
+                      <a href="#" class="b-menu__link">Запчасти для Ноутбуков</a>
+                    </li>
+                    <li class="b-menu__item">
+                      <a href="#" class="b-menu__link">Аксессуары</a>
+                    </li>
+                    <li class="b-menu__item">
+                      <a href="#" class="b-menu__link">Аккумуляторы</a>
+                    </li>
+                    <li class="b-menu__item">
+                      <a href="#" class="b-menu__link">Для ремонта</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -998,6 +1070,11 @@
         		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         	</div>
         </div>
+        <button data-toggle="modal" data-target="#add-basket">Товар добавлен в корзину</button>
+        <button>Оставьте свой отзыв о товаре</button>
+        <button data-toggle="modal" data-target="#enter">Войти на сайт</button>
+        <button data-toggle="modal" data-target="#enter2">Войти на сайт 2</button>
+        <button data-toggle="modal" data-target="#register">Регистрация</button>
       </div>
     </div>
   </div>
@@ -1151,6 +1228,274 @@
 		</div>
 		<div class="up__text">наверх</div>
 	</div>
+
+  <!-- Modal -->
+<div class="modal fade" id="enter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal__dialog" role="document">
+    <div class="modal__content">
+      <div class="modal__header">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+          <img src="images/modal-close.png" alt="">
+        </button>
+        <h4 class="modal__title">Войти на сайт</h4>
+      </div>
+      <div class="modal__body">
+        <div class="modal__social">
+          <div class="social-title">
+            Войти через аккаунт социальной сети:
+          </div>
+          <div class="social-items">
+            <a href="#" class="social-link">
+              <img src="images/vk.png" alt="">
+            </a>
+            <a href="#" class="social-link">
+              <img src="images/facebook-modal.png" alt="">
+            </a>
+            <a href="#" class="social-link">
+              <img src="images/google.png" alt="">
+            </a>
+          </div>
+          <div class="or-block">
+            <div class="or-block__item">
+              или
+            </div>
+          </div>
+          <div class="enter-form">  
+            <form action="">
+              <div class="modal__input">
+                <div class="modal__label">
+                  Ваш логин:*
+                </div>
+                <div class="modal__input-block">
+                  <input type="text" class="input__item">
+                  <a href="#" class="ques-icon">
+                    <img src="images/ques-icon.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="modal__input">
+                <div class="modal__label">
+                  Пароль:*
+                </div>
+                <div class="modal__input-block">
+                  <input type="password" class="input__item input__item_password">
+                  <a href="#" class="forget-link">Забыли пароль?</a>
+                </div>
+              </div>
+              <div class="submit__input">
+                <input type="submit" value="Войти" class="input__item">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <a href="#" class="register-link">Регистрация нового пользователя</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="enter2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal__dialog" role="document">
+    <div class="modal__content">
+      <div class="modal__header">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+          <img src="images/modal-close.png" alt="">
+        </button>
+        <h4 class="modal__title">Войти на сайт</h4>
+      </div>
+      <div class="modal__body">
+        <div class="modal__social">
+          <div class="social-title">
+            Войти через аккаунт социальной сети:
+          </div>
+          <div class="social-items">
+            <a href="#" class="social-link">
+              <img src="images/vk.png" alt="">
+            </a>
+            <a href="#" class="social-link">
+              <img src="images/facebook-modal.png" alt="">
+            </a>
+            <a href="#" class="social-link">
+              <img src="images/google.png" alt="">
+            </a>
+          </div>
+          <div class="or-block">
+            <div class="or-block__item">
+              или
+            </div>
+          </div>
+          <div class="register-form">  
+            <form action="">
+              <div class="register-title">Восстановление пароля</div>
+              <div class="modal__input">
+                <div class="modal__label">
+                  Эл почта:*
+                </div>
+                <div class="modal__input-block">
+                  <input type="text" class="input__item">
+                  <a href="#" class="ques-icon">
+                    <img src="images/ques-icon.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="submit__input">
+                <a href="#" class="modal__link">Помню пароль</a>
+                <input type="submit" value="Восстановить" class="input__item">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <a href="#" class="register-link">Регистрация нового пользователя</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal__dialog" role="document">
+    <div class="modal__content">
+      <div class="modal__header">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+          <img src="images/modal-close.png" alt="">
+        </button>
+        <h4 class="modal__title">Регистрация</h4>
+      </div>
+      <div class="modal__body">
+        <div class="enter-form">  
+          <form action="">
+            <div class="modal__input">
+              <div class="modal__label">
+                Ваше Имя:*
+              </div>
+              <div class="modal__input-block">
+                <input type="text" class="input__item">
+              </div>
+            </div>
+            <div class="modal__input">
+              <div class="modal__label">
+                Ваш телефон:*
+              </div>
+              <div class="modal__input-block">
+                <input type="text" class="input__item">
+              </div>
+            </div>
+            <div class="modal__input">
+              <div class="modal__label">
+                Эл почта:*
+              </div>
+              <div class="modal__input-block">
+                <input type="text" class="input__item">
+              </div>
+              <div class="small__check">
+                <input type="checkbox" class="checkbox" id="email1">
+                <label for="email1">Получать информацию об акциях и спецпредложениях</label>
+              </div>
+            </div>
+            <div class="modal__input">
+              <div class="modal__label">
+                Придумайте пароль:*
+              </div>
+              <div class="modal__input-block">
+                <input type="password" class="input__item">
+              </div>
+            </div>
+            <div class="modal__input">
+              <div class="modal__label">
+                Повторите пароль:*
+              </div>
+              <div class="modal__input-block">
+                <input type="password" class="input__item">
+              </div>
+            </div>
+            <div class="submit__input">
+              <input type="submit" value="Зарегестрироваться" class="input__item input__item_large">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="modal__footer">
+        <div class="footer-social">
+          <div class="footer-social__title">Войти:</div>
+          <a href="#" class="footer-social__item">
+            <img src="images/foot-vk.png" alt="">
+          </a>
+          <a href="#" class="footer-social__item">
+            <img src="images/foot-facebook.png" alt="">
+          </a>
+          <a href="#" class="footer-social__item">
+            <img src="images/foot-google.png" alt="">
+          </a>
+          <a href="#" class="footer-social__item">
+            <img src="images/foot-post.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="add-basket" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal__dialog modal__dialog_add" role="document">
+    <div class="modal__content">
+      <div class="modal__header">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+          <img src="images/modal-close.png" alt="">
+        </button>
+        <h4 class="modal__title">Товар добавлен в корзину!</h4>
+      </div>
+      <div class="modal__body">
+        <div class="my-order-info">
+          В корзине <a href="#">2 товара</a> на сумму 24590 руб.
+        </div>
+        <div class="order-basket-block">
+          <a href="#" class="del-order">
+            <span class="del-order__text">удалить</span>
+            <span>
+              <img src="images/del-order.png" alt="">
+            </span>
+          </a>
+          <div class="order-img">
+            <div class="table-block">
+              <div class="block-vertical">
+                <img src="images/cat-list.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="order-desc">
+            <div class="text">
+              <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+            </div>
+            <div class="price">
+              <p>24 590 <span class="rub">c</span></p>
+              <span class="prev__price">4 190 <span class="rub">c</span></span>
+            </div>
+            <div class="info-item">
+              <p><span>Наличие:</span> есть на складе</p>
+              <p><span>Гарантия:</span> 2 недели</p>
+            </div>
+          </div>
+          <div class="order-amount">
+            <div class="table-block">
+              <div class="block-vertical">
+                <div class="count">
+                  <div class="minus">-</div>
+                  <input type="text" class="number" value="1" readonly="">
+                  <div class="plus">+</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
 
 	<script src="js/vendor.min.js"></script>
 	<script>
