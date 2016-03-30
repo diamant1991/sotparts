@@ -33,7 +33,43 @@
           </div>
           <div class="top-panel__contact clearfix">
             <div class="map-link">
-              <a href="#">Москва и Подмосковье</a>
+              <a href="#" class="other-modal-link">Москва и Подмосковье</a>
+              <div class="city-modal other-modal">
+                <div class="modal__dialog modal__dialog_city" role="document">
+                  <div class="modal__content">
+                    <div class="modal__header">
+                      <button type="button" class="modal__close modal__close_other" data-dismiss="modal" aria-label="Close">
+                        <img src="images/modal-close.png" alt="">
+                      </button>
+                      <h4 class="modal__title">Выбрать город</h4>
+                    </div>
+                    <div class="modal__body">
+                      <div class="modal__input">
+                        <div class="city-modal__label">Введите название Города:</div>
+                        <div class="city-modal__field clearfix">
+                          <form action="">
+                            <input type="text" class="input__item input__item_city" placeholder="Например, Оренбург">
+                            <input type="submit" class="city-modal__submit" value="Сохранить">
+                          </form>
+                        </div>
+                      </div>
+                      <div class="city-modal__list">
+                        <div class="city-modal__title">Популярные Города (регионы):</div>
+                        <ul class="clearfix">
+                          <li><a href="#">Москва (Московская область)</a></li>
+                          <li><a href="#">Муром (Владимирская область)</a></li>
+                          <li><a href="#">Мышкин (Ярославская область)</a></li>
+                          <li><a href="#">Нижний Новгород (Нижегородская область)</a></li>
+                          <li><a href="#">Новосибирск (Новосибирская область)</a></li>
+                          <li><a href="#">Омск (Омская область)</a></li>
+                          <li><a href="#">Орёл (Орловская область)</a></li>
+                          <li><a href="#">Пенза (Пензенская область)</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="time">
               <div class="table-block">
@@ -171,10 +207,118 @@
           <div class="row">
             <div class="log-cart">
               <div class="log-in">
-                <a href="#">Войти</a>
+                <a href="#">
+                  Войти
+                </a>
               </div>
               <div class="cart">
-                <a href="#">Корзина</a>
+                <a href="#" class="other-modal-link">
+                  Корзина
+                  <span class="basket-btn__status">2</span>
+                </a>
+                <div class="basket-modal other-modal">
+                  <div class="modal__dialog modal__dialog_basket" role="document">
+                    <div class="modal__content">
+                      <div class="modal__header">
+                        <button type="button" class="modal__close modal__close_other" data-dismiss="modal" aria-label="Close">
+                          <img src="images/modal-close.png" alt="">
+                        </button>
+                        <h4 class="modal__title">Ваш заказ</h4>
+                      </div>
+                      <div class="modal__body">
+                        <div class="my-order-info">
+                          В корзине <a href="#">2 товара</a> на сумму 24590 руб.
+                        </div>
+                        <div class="order-basket-block">
+                          <a href="#" class="del-order">
+                            <span class="del-order__text">удалить</span>
+                            <span>
+                              <img src="images/del-order.png" alt="">
+                            </span>
+                          </a>
+                          <div class="order-img">
+                            <div class="table-block">
+                              <div class="block-vertical">
+                                <img src="images/cat-list.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order-desc">
+                            <div class="text">
+                              <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+                            </div>
+                            <div class="price">
+                              <p>24 590 <span class="rub">c</span></p>
+                              <span class="prev__price">4 190 <span class="rub">c</span></span>
+                            </div>
+                            <div class="info-item">
+                              <p><span>Наличие:</span> есть на складе</p>
+                              <p><span>Гарантия:</span> 2 недели</p>
+                            </div>
+                          </div>
+                          <div class="order-amount">
+                            <div class="table-block">
+                              <div class="block-vertical">
+                                <div class="count">
+                                  <div class="minus">-</div>
+                                  <input type="text" class="number" value="1" readonly="">
+                                  <div class="plus">+</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="order-basket-block">
+                          <a href="#" class="del-order">
+                            <span class="del-order__text">удалить</span>
+                            <span>
+                              <img src="images/del-order.png" alt="">
+                            </span>
+                          </a>
+                          <div class="order-img">
+                            <div class="table-block">
+                              <div class="block-vertical">
+                                <img src="images/cat-list.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="order-desc">
+                            <div class="text">
+                              <p>Корпус для Sony Xperia C ORIGINAL с боковыми клавишами</p>
+                            </div>
+                            <div class="price">
+                              <p>24 590 <span class="rub">c</span></p>
+                              <span class="prev__price">4 190 <span class="rub">c</span></span>
+                            </div>
+                            <div class="info-item">
+                              <p><span>Наличие:</span> есть на складе</p>
+                              <p><span>Гарантия:</span> 2 недели</p>
+                            </div>
+                          </div>
+                          <div class="order-amount">
+                            <div class="table-block">
+                              <div class="block-vertical">
+                                <div class="count">
+                                  <div class="minus">-</div>
+                                  <input type="text" class="number" value="1" readonly="">
+                                  <div class="plus">+</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal__order clearfix">
+                          <div class="modal__left-block">
+                            <a href="#" class="modal-order-link">Оформить заказ</a>
+                          </div>
+                          <div class="modal__right-block clearfix">
+                            <a href="#" class="modal-basket-link">Перейти в корзину</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -1071,7 +1215,7 @@
         	</div>
         </div>
         <button data-toggle="modal" data-target="#add-basket">Товар добавлен в корзину</button>
-        <button>Оставьте свой отзыв о товаре</button>
+        <button data-toggle="modal" data-target="#get-review">Оставьте свой отзыв о товаре</button>
         <button data-toggle="modal" data-target="#enter">Войти на сайт</button>
         <button data-toggle="modal" data-target="#enter2">Войти на сайт 2</button>
         <button data-toggle="modal" data-target="#register">Регистрация</button>
@@ -1132,13 +1276,6 @@
 												<input type="text" placeholder="Подпишись прямо сейчас на новости">
 												<input type="submit" class="subscribe-arrow" value="">
 											</form>
-										</div>
-										<div class="center-menu">
-											<ul>
-												<li><a href="#">Обратная связь</a></li>
-												<li><a href="#">Заказать звонок</a></li>
-												<li><a href="#">Помощь</a></li>
-											</ul>
 										</div>
 									</div>
 								</div>
@@ -1490,7 +1627,84 @@
             </div>
           </div>
         </div>
-        
+        <div class="modal__order clearfix">
+          <div class="modal__left-block">
+            <a href="#" class="modal-order-link">Оформить заказ</a>
+          </div>
+          <div class="modal__right-block clearfix">
+            <a href="#" class="modal-basket-link">Перейти в корзину</a>
+          </div>
+        </div>
+        <div class="modal__telephone">
+          <div class="modal__telephone__title">
+            Заказать товар через телефон
+          </div>
+          <div class="modal__telephone__small-title">
+            Оставьте свой номер, мы все сделаем за вас
+          </div>
+          <div class="modal__telephone__form clearfix">
+            <input type="text" class="telephone-item">
+            <input type="submit" value="Отправить" class="telephone-submit">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="get-review" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal__dialog modal__dialog_add" role="document">
+    <div class="modal__content">
+      <div class="modal__header">
+        <button type="button" class="modal__close" data-dismiss="modal" aria-label="Close">
+          <img src="images/modal-close.png" alt="">
+        </button>
+        <h4 class="modal__title">Оставьте свой отзыв о товаре</h4>
+      </div>
+      <div class="modal__body">
+        <div class="modal__input">
+          <div class="modal__label">
+            Напишите Ваш отзыв:
+          </div>
+          <div class="modal__input-block">
+            <textarea placeholder="Сообщение" class="textarea-item"></textarea>
+          </div>
+        </div>
+        <div class="modal__estimate clearfix">
+          <div class="estimate-rating">
+            <div class="modal__label">Оцените этот товар:</div>
+            <div class="modal__star">
+              <img src="images/modal-star.png" alt="">
+            </div>
+          </div>
+          <div class="estimate-total">
+            5/5
+          </div>
+        </div>
+        <div class="modal__input clearfix">
+          <div class="modal__left-block">
+            <div class="modal__label">
+              Имя:*
+            </div>
+            <input type="text" class="input__item">
+            <div class="name-text">
+              Как к Вам обращаться?
+            </div>
+          </div>
+          <div class="modal__right-block">
+            <div class="modal__label">
+              Эл. почта:*
+            </div>
+            <input type="text" class="input__item">
+            <div class="small__check">
+              <input type="checkbox" class="checkbox" id="email2">
+              <label for="email2">Получать информацию об акциях и спецпредложениях</label>
+            </div>
+          </div>
+        </div>
+        <div class="submit__input submit__input_review">
+          <input type="submit" value="Оставить отзыв" class="input__item">
+        </div>
       </div>
     </div>
   </div>

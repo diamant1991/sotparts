@@ -89,3 +89,23 @@ $('.view a').click(function(e) {
 	$('.view a').removeClass('active');
 	$(this).addClass('active');
 });
+
+$(function() {
+	$('.other-modal-link').click(function(e) {		
+		e.preventDefault();
+		var modal = $(this).next()
+		if(modal.is(':hidden')){
+			modal.fadeIn(250);
+			modal.addClass('active');
+		}
+		else{
+			modal.fadeOut(250);
+			modal.removeClass('active');
+		}
+	});
+	$('.modal__close_other').click(function(e) {
+		var modal = $(this).closest('.other-modal');
+		modal.fadeOut(250);
+		modal.removeClass('active');
+	});
+});
