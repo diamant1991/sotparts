@@ -359,8 +359,19 @@
 				<button class="filter-btn active">Цена, руб</button>
 				<div class="filter-content">
 					<div class="range-slider">
-						<img src="images/filter.png" alt="">
-					</div>
+						<!-- <div class="price-info clearfix">
+							<span class="left">от 200</span>
+							<span class="right">до 12000</span>
+						</div>
+						<div class="slider-range"></div>
+						<div class="range-input">
+						  <label class="first">от</label>
+						              <input type="text" class="minCost" value="200">
+						              -
+						              <label class="second">до</label>
+						              <input type="text" class="maxCost" value="12000">
+						</div> -->
+					</div> 
 				</div>
 			</div>
 		</aside>
@@ -494,7 +505,18 @@
 							<button class="filter-btn active">Цена, руб</button>
 							<div class="filter-content">
 								<div class="range-slider">
-									<img src="images/filter.png" alt="">
+									<div class="price-info clearfix">
+										<span class="left">от 200</span>
+										<span class="right">до 12000</span>
+									</div>
+									<div class="slider-range"></div>
+									<div class="range-input">
+									  <label class="first">от</label>
+			              <input type="text" class="minCost" value="200">
+			              -
+			              <label class="second">до</label>
+			              <input type="text" class="maxCost" value="12000">
+									</div>
 								</div>
 							</div>
 						</div>
@@ -1825,6 +1847,47 @@
 	</div>
 
 	<script src="js/vendor.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+		<script>
+			jQuery(".slider-range").slider({
+   min: 200,
+   max: 12000,
+   values: [200,12000],
+   range: true,
+   stop: function(event, ui) {
+      jQuery("input.minCost").val(jQuery(".slider-range").slider("values",0));
+      jQuery("input.maxCost").val(jQuery(".slider-range").slider("values",1));
+    },
+    slide: function(event, ui){
+      jQuery("input.minCost").val(jQuery(".slider-range").slider("values",0));
+      jQuery("input.maxCost").val(jQuery(".slider-range").slider("values",1));
+    }
+	});
+   jQuery("input.minCost").change(function(){
+   var value1=jQuery("input.minCost").val();
+   var value2=jQuery("input.maxCost").val();
+
+    if(parseInt(value1) > parseInt(value2)){
+      value1 = value2;
+      jQuery("input.minCost").val(value1);
+   }
+   jQuery(".slider-range").slider("values",0,value1); 
+	});
+
+   
+	jQuery("input.maxCost").change(function(){
+   var value1=jQuery("input.minCost").val();
+   var value2=jQuery("input.maxCost").val();
+   
+   if (value2 > 12000) { value2 = 12000; jQuery("input.maxCost").val(12000)}
+
+   if(parseInt(value1) > parseInt(value2)){
+      value2 = value1;
+      jQuery("input.maxCost").val(value2);
+   }
+   jQuery(".slider-range").slider("values",1,value2);
+	});
+		</script>
 	<script src="js/script.js"></script>
 </body>
 </html>

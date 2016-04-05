@@ -1268,7 +1268,8 @@ img {
   background: #edecf1;
 }
 .range-slider {
-  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .catalog__item {
   padding-left: 10px;
@@ -2904,4 +2905,40 @@ img {
   top: -23px;
   border: 12px solid transparent;
   border-bottom: 12px solid #fff;
+}
+.ui-slider .ui-slider-handle {
+  background: url(../images/range.png) no-repeat;
+}
+.price-info {
+  padding-top: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #333;
+}
+.price-info .left {
+  float: left;
+}
+.price-info .right {
+  float: right;
+}
+.range-input label {
+  font-size: 12px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.range-input input {
+  display: inline-block;
+  vertical-align: middle;
+  width: 45px;
+  height: 25px;
+  padding-left: 5px;
+  outline: 0;
+  font-size: 12px;
+  font-family: 'FuturaReg';
+  border: 1px solid #d5d5d5;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.range-input {
+  margin-top: 15px;
 }
