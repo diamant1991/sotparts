@@ -286,7 +286,138 @@
 			<div class="card clearfix">
 				<div class="col-sm-6">
 					<div class="row">
-						<img src="images/card.jpg" alt="">
+						<div class="card__carousel">
+              <div class="card__slide">
+                <ul class="bxslider" id="card-slide">
+                  <li>
+                    <div class="card__slide__item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <a href="images/card-img.jpg" class="fancybox">
+                            <img src="images/card-img.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card__slide__item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <a href="images/card-img.jpg" class="fancybox">
+                            <img src="images/card-img.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card__slide__item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <a href="images/card-img.jpg" class="fancybox">
+                            <img src="images/card-img.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card__slide__item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <a href="images/card-img.jpg" class="fancybox">
+                            <img src="images/card-img.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="card__slide__item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <a href="images/card-img.jpg" class="fancybox">
+                            <img src="images/card-img.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                     </div>
+                  </li>
+                  <li>
+                    <div class="card__slide__item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <a href="images/card-img.jpg" class="fancybox">
+                            <img src="images/card-img.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="card__thumb">
+                <div class="bxslider" id="card-thumb">
+                  
+                    <a data-slide-index="0" href="" class="thumb-item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <img src="images/card-img.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                  
+                  
+                    <a data-slide-index="1" href="" class="thumb-item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <img src="images/card-img.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                  
+                  
+                    <a data-slide-index="2" href="" class="thumb-item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <img src="images/card-img.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                  
+                  
+                    <a data-slide-index="3" href="" class="thumb-item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <img src="images/card-img.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                  
+                  
+                    <a data-slide-index="4" href="" class="thumb-item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <img src="images/card-img.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                  
+                  
+                    <a data-slide-index="5" href="" class="thumb-item">
+                      <div class="table-block">
+                        <div class="block-vertical">
+                          <img src="images/card-img.jpg" alt="">
+                        </div>
+                      </div>
+                    </a>
+                 
+                </div> 
+                
+              </div>
+              
+            </div>
 					</div>
 				</div>
 				<div class="col-sm-6">
@@ -941,6 +1072,32 @@
         navigationText: ["",""],
       });
 
+      $(".fancybox").fancybox({
+        padding : 0,
+        openEffect  : 'elastic',
+        closeEffect : 'elastic',
+        helpers: {
+          overlay: {
+            locked: false
+          }
+        }
+      });
+
+    });
+    $('#card-thumb').bxSlider({
+      mode: 'vertical',
+      minSlides: 4,
+      maxSlides: 4,
+      moveSlides: 1,
+      pager: false,
+      slideMargin: 6,
+      infiniteLoop: false,
+      speed: 350
+    });
+    $('#card-slide').bxSlider({
+      mode: 'fade',
+      pagerCustom: '#card-thumb',
+      controls: false
     });
 	</script>
 	<script src="js/script.js"></script>

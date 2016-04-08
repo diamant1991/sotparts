@@ -1,5 +1,5 @@
 @media(min-width: 1200px){
-	.bx-controls-direction{
+	.main-slider .bx-controls-direction{
 	  width: 1140px;
 	  position: absolute;
 	  height: 380px;
@@ -145,6 +145,9 @@
 @media(max-width: 767px){
 	.hidden-xs{
 		display: none !important;
+	}
+	.card__carousel{
+		padding-right: 0;
 	}
 	.breadcrumb__back{
 		float: none;
@@ -307,6 +310,9 @@
 	}
 	.bx-controls-direction{
 		display: none;
+	}
+	.card__carousel .bx-controls-direction{
+		display: block;
 	}
 	.mobile-slider__item{
 		margin-bottom: 10px;
