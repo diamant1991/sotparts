@@ -1771,7 +1771,7 @@ img {
   border: 1px solid #dcdcdc;
   -webkit-border-radius: 15px;
   border-radius: 15px;
-  margin: auto;
+  float: right;
 }
 .clear-basket span {
   display: inline-block;
@@ -1797,6 +1797,7 @@ img {
   border-radius: 15px;
   font-size: 16px;
   float: right;
+  margin-left: 15px;
 }
 .get-order-link:hover {
   background: #fcff5b;

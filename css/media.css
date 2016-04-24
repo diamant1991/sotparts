@@ -146,6 +146,11 @@
 	.hidden-xs{
 		display: none !important;
 	}
+	.clear-basket{
+		float: none;
+		margin: auto;
+		margin-top: 15px;
+	}
 	.card__carousel{
 		padding-right: 0;
 	}
