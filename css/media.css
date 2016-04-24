@@ -367,4 +367,13 @@
 	.sorting{
 		padding-left: 10px;
 	}
+	.news__item{
+		padding-left: 0;
+		text-align: center;
+	}
+	.news__img{
+		position: relative;
+		margin: auto;
+		margin-bottom: 15px;
+	}
 }
