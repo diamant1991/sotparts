@@ -58,15 +58,29 @@ $(function() {
 });
 
 $(function() {
-	$('.menu-btn').click(function(e) {
-		e.preventDefault();
-		var menuList = $(this).closest('.mobile-header').next();
+ 	$('.menu-btn').click(function(e) {
+ 		e.preventDefault();
+ 		var menuList = $('#mobile-menu');
 		if (menuList.is(':hidden')){
 			menuList.slideDown(300);
 			$(this).addClass('active');
 		}
 		else{
 			menuList.slideUp(300);
+			$(this).removeClass('active');
+		}
+	});
+});
+
+$(function() {
+	$('.search-btn').click(function(e) {
+		e.preventDefault();
+		if ($('#mobile-search').is(':hidden')) {
+			$('#mobile-search').slideDown(300)
+			$(this).addClass('active');
+		}
+		else{
+			$('#mobile-search').slideUp(300)
 			$(this).removeClass('active');
 		}
 	});

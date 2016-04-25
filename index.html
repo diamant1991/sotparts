@@ -341,7 +341,7 @@
         <div class="table-block">
           <div class="block-vertical">
             <a href="#" class="search-btn">
-              <img src="images/search-btn.png" alt="">
+   
             </a>
           </div>
         </div>
@@ -396,7 +396,20 @@
   </header>
   <!-- mobile header -->
 
-  <div class="mobile-menu-list visible-xs">
+  <div class="mobile-search visible-xs" id="mobile-search">
+    <div class="mobile-search__content">
+      <form action="">
+        <div class="search">
+          <form>
+              <input type="text" placeholder="поиск товара">
+              <input type="submit" value="&nbsp;">
+          </form>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="mobile-menu-list visible-xs" id="mobile-menu">
     <ul class="menu-list__item">
       <li>
         <a href="#" class="toggle-drop">Акции</a>
@@ -489,7 +502,6 @@
       </ul>
     </div>
   </div>
-
 
 	<div class="main-slider hidden-xs">
     <ul class="bxslider">

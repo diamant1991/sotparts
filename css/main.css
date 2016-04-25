@@ -3235,10 +3235,10 @@ img {
   border-radius: 5px;
   position: relative;
 }
-.card__slide__item:before {
-  content: "";
+.magnifier {
   background: url(../images/zoom.png) no-repeat;
   width: 24px;
+  display: block;
   height: 24px;
   position: absolute;
   z-index: 2;
@@ -3377,4 +3377,58 @@ img {
 .mobile-date {
   color: #bfbfbf;
   font-size: 10.5px;
+}
+.mobile-search {
+  display: none;
+}
+.mobile-search__content {
+  padding: 15px;
+  padding-top: 7px;
+  background: #fcee21;
+}
+.mobile-search .search {
+  background: #fff;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.mobile-search .search input[type=text] {
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 36px;
+  font-family: 'FuturaReg';
+}
+#list {
+  display: none;
+}
+.mobile-search .search input[type=submit] {
+  outline: none;
+  cursor: pointer;
+  background: url(../images/icon_search.png) no-repeat center center;
+  border: none;
+  width: 19px;
+  height: 19px;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  right: 15px;
+  top: 50%;
+  margin-top: -9.5px;
+}
+.search-btn {
+  display: block;
+  width: 23px;
+  height: 23px;
+  margin: auto;
+  background: url(../images/search-btn.png) no-repeat;
+}
+.search-btn.active {
+  background: url(../images/search-btn-active.png) no-repeat;
 }
