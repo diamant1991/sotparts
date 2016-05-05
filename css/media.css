@@ -157,6 +157,17 @@
 	.breadcrumb__back{
 		float: none;
 	}
+	.single-news__img{
+		float: none;
+		margin-right: 0;
+	}
+	.left-pag,
+	.right-pag{
+		float: none;
+	}
+	.right-pag{
+		margin-top: 20px;
+	}
 	.catalog-category{
 		padding-left: 0;
 		padding-right: 0;

@@ -869,8 +869,25 @@ img {
   border-right: 1px solid #303030;
 }
 .subscribe {
-  position: relative;
   width: 100%;
+}
+.subscribe__form {
+  position: relative;
+}
+.subscribe__top {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  color: #858585;
+}
+.subscribe__bottom {
+  font-size: 11px;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+  color: #858585;
+  margin-top: 10px;
+  line-height: 1.3;
 }
 .subscribe input[type="text"] {
   display: block;
@@ -906,11 +923,9 @@ img {
   line-height: 1.6;
   height: 135px;
   border-right: 1px solid #303030;
-  padding-left: 50px;
 }
 .copyright p {
   color: #858585;
-  text-align: left;
 }
 .copyright__item {
   text-align: center;
@@ -3431,4 +3446,91 @@ img {
 }
 .search-btn.active {
   background: url(../images/search-btn-active.png) no-repeat;
+}
+.footer-tel {
+  font-family: 'FuturaBold';
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.footer-tel span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-time {
+  margin-bottom: 20px;
+  font-size: 9px;
+  font-family: Tahoma, sans-serif;
+  color: #858585;
+}
+.payment-variant {
+  text-align: center;
+  margin: 15px 0;
+}
+.payment-variant a {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 8px;
+  opacity: 0.3;
+}
+.payment-variant a:hover {
+  opacity: 1;
+}
+.footer__develop {
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #858585;
+}
+.footer__develop a {
+  color: #fcee21;
+}
+.footer__payment {
+  height: 135px;
+}
+.single-news {
+  line-height: 1.4;
+  color: #333;
+}
+.single-news__img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.single-news__date {
+  font-family: Tahoma, sans-serif;
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #858585;
+}
+.single-news__title {
+  font-family: 'FuturaBold';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.single-news__text {
+  color: #5c5c5c;
+}
+.single-news__text p {
+  margin-bottom: 20px;
+}
+.left-pag {
+  float: left;
+}
+.right-pag {
+  float: right;
+}
+.news-pag {
+  font-size: 15px;
+  margin: 40px 0;
+}
+.news-pag .back {
+  margin-left: 25px;
+}
+.news-pag a {
+  color: #333;
+  text-decoration: underline;
+}
+.news-pag a:hover {
+  color: #0071bc;
 }
